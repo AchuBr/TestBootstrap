@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Ejemplo base - Bootstrap - </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+	body{
+		font-size: 12px;
+	}
+
+	.navbar{
+		margin-bottom: 0px;
+	}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="glyphicon glyphicon-remove"></span>
+      </button>
+      <span class="navbar-brand"><span class="glyphicon glyphicon-road"></span> Dirección Nacional de Vialidad</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Cerrar Sesion</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
+	<header>
+		<ol class="breadcrumb">
+  			<li><a href="#">Inicio</a></li>
+  			<li><a href="#">Cargar datos</a></li>
+  			<li class="active">Nivel Servicio</li>
+		</ol>
+	</header>
+
+	<nav>
+		<div class="container">
+			<br>
+			<div class="row">
+				<!-- Contenedor del menu sm md lg -->
+				<div class="col-sm-11		col-md-11		col-lg-10
+							col-sm-offset-1 col-md-offset-1 col-lg-offset-1
+							visible-sm		visible-md		visible-lg">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+						<li><a href="#profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
+						<li><a href="#message" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-envelope"></span> Mensaje <span class="badge">2</span></a></li>
+						<li><a href="#settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Configuaracion</a></li>
+					</ul>
+					<br>
+				</div>	
+					<!-- Contenedor del menu xs -->
+				<div class="col-xs-12 visible-xs" >
+					<div class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-console"></span></a>
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>						
+							</div>
+				
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+									<li><a href="#profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
+									<li><a href="#message" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-envelope"></span> Mensaje <span class="badge">2</span></a></li>
+									<li><a href="#settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Configuaracion</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+					<div class="tab-content col-xs-10 col-xs-offset-1">
+						<div class="tab-pane fade in active" id="home">
+							<p>En uno de mis artículos anteriores te muestro como puedes descargar e instalar una herramienta llamada Uniform Server en tu ordenador para, a continuación, instalar tu aplicación web Joomla 2.5 o tu aplicación web WordPress. Ahora le toca el turno a otra aplicación llamada Xampp portable lite.</p>
+							<p>En uno de mis artículos anteriores te muestro como puedes descargar e instalar una herramienta llamada Uniform Server en tu ordenador para, a continuación, instalar tu aplicación web Joomla 2.5 o tu aplicación web WordPress. Ahora le toca el turno a otra aplicación llamada Xampp portable lite.</p>
+						</div>
+						<div class="tab-pane fade active" id="profile">
+							<p>Mauris hendrerit enim nibh, sed pretium arcu scelerisque vitae. Sed semper commodo blandit. Integer ut tempor ante. In porta ac libero sed fermentum. Aenean sit amet turpis vel orci lobortis laoreet a eu mi. Aenean eget semper ligula, quis aliquam elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sed leo quis sapien condimentum ultrices. Pellentesque quis blandit massa, eget faucibus neque. Duis sed ante sollicitudin, pulvinar leo eget, bibendum velit. Donec rhoncus ligula eget ante posuere, sit amet pulvinar ligula mattis.</p>
+						</div>
+						<div class="tab-pane fade active" id="message">
+							<p>Mauris hendrerit enim nibh, sed pretium arcu scelerisque vitae. Sed semper commodo blandit. Integer ut tempor ante. In porta ac libero sed fermentum. Aenean sit amet turpis vel orci lobortis laoreet a eu mi. Aenean eget semper ligula, quis aliquam elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sed leo quis sapien condimentum ultrices. Pellentesque quis blandit massa, eget faucibus neque. Duis sed ante sollicitudin, pulvinar leo eget, bibendum velit. Donec rhoncus ligula eget ante posuere, sit amet pulvinar ligula mattis.</p>
+							<p>Nam hendrerit lobortis urna, vitae mattis tellus mattis vitae. Nunc non magna elit. Nullam et iaculis odio, ut cursus purus. Cras iaculis egestas erat vitae mollis. Sed cursus ultricies nisl, tincidunt eleifend libero pharetra sit amet. Vivamus in facilisis est. Duis arcu tortor, cursus quis nunc a, cursus volutpat risus. Proin in fringilla elit. Integer id lectus accumsan, luctus diam vitae, congue mi. Praesent et ligula sit amet nisl eleifend malesuada. Phasellus aliquam tristique mauris nec euismod. Morbi tellus velit, varius pharetra velit et, auctor hendrerit dui.</p>
+						</div>
+						<div class="tab-pane fade active" id="settings">
+							<p>Nunc pretium condimentum magna ac posuere. Duis a eleifend lorem. Nullam turpis risus, finibus ac efficitur ac, aliquam quis tellus. Phasellus non tristique nulla, eget sollicitudin magna. Donec id urna mi. Ut imperdiet id nibh sit amet pretium. Pellentesque rhoncus pulvinar dolor, ac bibendum magna vehicula sit amet. Nullam dapibus ornare hendrerit. Duis suscipit, arcu nec auctor porta, odio lorem rutrum odio, non elementum mi metus nec ex. Proin in erat eu ipsum porttitor rhoncus.</p>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+	</nav>
+	<!-- Contenedor del slide de imagenes-->
+	<div class="container" >
+	
+	</div>
+
+	<footer>
+
+	</footer>
+
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
